@@ -49,4 +49,4 @@ def loadInfoToMongo():
     subprocess.run([f"{sys.executable}", "/home/bin/run_spark_batch.sh"])
     st.write("Fichero subido. Revise HDFS.")
 
-loadToMongo = st.button("Cargar en base de datos", on_click=run-spark-batch.sh)
+loadToMongo = st.button("Cargar en base de datos", on_click=loadInfoToMongo)
